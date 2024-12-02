@@ -41,6 +41,10 @@ const medusaConfig = {
   admin: {
     backendUrl: BACKEND_URL,
     disable: SHOULD_DISABLE_ADMIN,
+    languages: [
+      { code: 'en', name: 'English' },
+      { code: 'pt', name: 'Portuguese' }
+    ]
   },
   modules: [
     {
